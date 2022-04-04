@@ -12,8 +12,9 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Expansion Panel List'),
+        title: Text('Expansion Panel Lists'),
         centerTitle: true,
+        backgroundColor: Colors.blueAccent,
       ),
       body: SingleChildScrollView(
         child: Container(
